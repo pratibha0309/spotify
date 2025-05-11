@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://kit.fontawesome.com/f96e88b96b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+<div class="main">
+  <div class="sidebar">
+    <div class="logo">
+      <a href="#">
+        <img src="download.png" alt="Logo" />
+      </a>
+    </div>
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="fa fa-home"></span>
+            <span>Home</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="fa fa-search"></span>
+            <span>Search</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="fa fas fa-book"></span>
+            <span>Your Library</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="fa fas fa-plus-square"></span>
+            <span>Create Playlist</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="fa fas fa-heart"></span>
+            <span>Liked Songs</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="policies">
+      <ul>
+        <li>
+          <a href="#">Cookies</a>
+        </li>
+        <li>
+          <a href="#">Privacy</a>
+        </li>
+      </ul>
+    </div>
+  </div> 
+
+
+
+<div class="main-container">
+  <div class="topbar">
+      <div class="prev-next-buttons">
+        <button type="button" class="fa fas fa-chevron-left"></button>
+        <button type="button" class="fa fas fa-chevron-right"></button>
+      </div>
+
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="#">Premium</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+          <li>
+            <a href="#">Download</a>
+          </li>
+          <li class="divider">|</li>
+          <li>
+            <a href="#">Sign Up</a>
+          </li>
+        </ul>
+        <button type="button">Log In</button>
+      </div>
+  </div>
+    <div class="right-container">
+      <div class="image">
+        <img src="22_09_2024-concerts_23802021.jpg">
+      </div>
+      <h1>Superhit Punjabi Songs</h1>
+      <p>Spotify Playlist</p>
+    </div>
+
+    <div class="container">
+
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Album</th>
+            <th>Date added</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><img src="img1.jpg" class="album-cover"> Water <br> <span class="artist">Diljit Dosanjh, MixSingh,
+                Raj Ranjodh</span></td>
+            <td>Water</td>
+            <td>7 hours ago</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><img src="img2.jpg" class="album-cover"> Sahiba <br> <span class="artist">Jasleen Royal, Stebin
+                Ben, Vijay Deverakonda</span></td>
+            <td>Sahiba</td>
+            <td>7 hours ago</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><img src="img3.jpg" class="album-cover"> Morni <br> <span class="artist">Badshah, Sharvi Yadav,
+                Hiten</span></td>
+            <td>Morni</td>
+            <td>7 hours ago</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><img src="img4.jpg" class="album-cover"> Tell Me <br> <span class="artist">Karan Aujla,
+                OneRepublic, Ikky</span></td>
+            <td>Tell Me</td>
+            <td>7 hours ago</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><img src="img5.jpg" class="album-cover"> Payal <br> <span class="artist">Yo Yo Honey Singh,
+                Paradox</span></td>
+            <td>Glory</td>
+            <td>7 hours ago</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="footer">
+      <div class="song-details">
+        <img src="img4.jpg" id="poster_master-play">
+        <h4 class="name">payal<br><br>Honey singh</h4>
+      </div>
+      <div class="controls">
+        <i id="repeat-playlist" class="material-icons">repeat</i>
+        <i id="prev" class="material-icons">skip_previous</i>
+        <div class="play-pause">
+          <i class="material-icons">play_arrow</i>
+        </div>
+        <i id="next" class="material-icons">skip_next</i>
+        <i id="more-music" class="material-icons">queue_music</i>
+        <span id="current-time">0:00</span>
+        <input type="range" value="0" id="music-bar">
+        <span id="total-duration">0:00</span> 
+      </div>
+
+    </div>
+<script src="./app.js" defer></script>
+</body>
+
+</html>
