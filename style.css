@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    background-color: #000000;
+    padding: 24px;
+  }
+  .sidebar .logo img {
+    width: 130px;
+  }
+  .sidebar .navigation ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .sidebar .navigation ul li {
+    padding: 10px 0px;
+  }
+  .sidebar .navigation ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .sidebar .navigation ul li a:hover,
+  .sidebar .navigation ul li a:active,
+  .sidebar .navigation ul li a:focus {
+    color: #ffffff;
+  }
+  .sidebar .navigation ul li a:hover .fa,
+  .sidebar .navigation ul li a:active .fa,
+  .sidebar .navigation ul li a:focus .fa {
+    color: #b3b3b3;
+  }
+  .sidebar .navigation ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .sidebar .navigation ul li a:hover .fa:hover,
+  .sidebar .navigation ul li a:hover .fa:active,
+  .sidebar .navigation ul li a:hover .fa:focus {
+    color: #ffffff;
+  }
+  .sidebar .policies {
+    position: absolute;
+    bottom: 100px;
+  }
+  .sidebar .policies ul {
+    list-style: none;
+  }
+  .sidebar .policies ul li {
+    padding-bottom: 5px;
+  }
+  .sidebar .policies ul li a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .sidebar .policies ul li a:hover,
+  .sidebar .policies ul li a:active,
+  .sidebar .policies ul li a:focus {
+    text-decoration: underline;
+  }
+  .main-container {
+    margin-left: 245px;
+    margin-bottom: 100px;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+    height: auto;
+  }
+  .topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+  }
+  .topbar .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .navbar ul {
+    list-style: none;
+  }
+  .topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+  }
+  .topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .topbar .navbar ul li a:hover,
+  .topbar .navbar ul li a:active,
+  .topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .topbar .navbar ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+  }
+  .topbar .navbar button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .topbar .navbar button:hover,
+  .topbar .navbar button:active,
+  .topbar .navbar button:focus {
+    background-color: #f2f2f2;
+  }
+  .right-container{
+    background-color: black;
+    border: 1px solid black;
+    width: 80%;
+    height: auto;
+    margin-left: 90px;
+  }
+  .image img{
+    width: 90%;
+    height: auto;
+    margin-left: 40px;
+  }
+  .right-container h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+  .right-container h1:hover{
+    color: grey;
+  }
+  .right-container p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+  .right-container p:hover{
+    color: grey;
+  }
+ 
+  .container {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.play-button, .add-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+th {
+    text-align: left;
+    color:white;
+}
+
+.album-cover {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.artist {
+    font-size: 12px;
+    color:white;
+}
+
+:root{
+  --pink:#ff74a4;
+  --violet:#9f6ea3;
+  --lightblack:#515C6F;
+  --white:#ffffff;
+  --darkwhite:#cecaca;
+  --pinkshadow:#ffcbdd;
+  --lightshadow:rgba(0,0,0,0,15);
+ }
+   
+   .footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.3);
+}
+.song-details{
+  display: flex;
+  align-items: center;
+}
+.song-details img {
+  width: 40px;  
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.song-details h4 {
+  font-size: 11px;  
+  width: 100px;
+}
+.controls {
+  display: flex;
+  align-items: center;  
+  justify-content: center;  
+  width: 100%;
+}
+
+
+.controls i {
+  font-size:20px; 
+  margin: 0 10px;  
+  cursor: pointer;
+}
+#music-bar {
+  width: 60%; 
+  height: 5px;
+  background: white;
+  border-radius: 5px;
+}
+
+
+
+
+  
+ 
